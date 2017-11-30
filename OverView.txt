@@ -1,0 +1,81 @@
+OverView File 
+** This is the main text file considering it as a planning board for the project
+
+
+Aristocrat - Assassin's Creed Unity
+* Rails Starter App with using of Gems and JQuery JavaScript
+* This project is all about wallpapers community
+* The main idea of the project is to view wallpapers from links
+
+Current Step
+* Add Single View Page Design
+
+Next Step
+=>
+    * Start Working With User Auth in Devise gem (The user should only have the ability to favorite and comment for now)
+    * The guest have the ability to like or dislike
+<=
+
+ForWard Step
+=> =>
+    * Add Comments Design to the singleviewpage
+<= <=
+
+
+Targets & Missions
+..
+Pages and Layout
+* Improve the main view page design V1.
+* Add Tags to the pages
+* Make a contact form
+* Make a comments system
+* The wallpaper should have (like and favorite) buttons
+* Make an about page
+* Edit navbar icons styles (Circle border)
+* Make tags styles in the main page view
+* Make a Profile view styles
+* Add (AD space) styles to the pages
+
+Backend Reqiurements
+* The App should have three type if users (Admin, Supervisors, Nurmal User)
+* The admin and supervisors users only ones who have the ability to add wallpapers 
+* The App should contain rating system for every wallpaper
+* The app should have comment system for every wallpaper
+* The admin should have the ability to create users
+* The admin should have the ability to delete users or content
+* The app should have a category and tags
+* The user should have the ability to like and favorite the wallpaper
+* The user should have the ability to upload wallpaper with the available categories
+* The admin should have the ability to view users messages and reply to them
+* The app should avoid dublicated users by their emails
+* The user should have the ability to create and organize his own list
+* Add a permission for upload the wollpaper or use the URL from Unsplash
+* Add recommendations items
+
+
+
+Helper:
+
+https://aristocrat-mrsamer.c9users.io/
+
+New Commands
+
+rails s -b $IP -p $PORT
+
+Ctrl-C    //To stop
+
+$ rails c
+
+Ctrl-D    //To exit
+
+$ rails g scaffold <PageName>
+
+$ git log
+Q   //To quit
+
+// You can navigate and open any file while you're in the project dir
+// For Example
+$ c9 ../../code/playground.html 
+
+// To duplicate a single line in c9 editor
+Shift + CMD + D
