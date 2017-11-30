@@ -35,6 +35,7 @@ Pages and Layout
 * Make tags styles in the main page view
 * Make a Profile view styles
 * Add (AD space) styles to the pages
+* Add multi-language to the website
 
 Backend Reqiurements
 * The App should have three type if users (Admin, Supervisors, Nurmal User)
