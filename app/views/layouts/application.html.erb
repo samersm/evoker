@@ -3,6 +3,7 @@
   <head>
     <title>io-games</title>
     <%= csrf_meta_tags %>
+    <%= favicon_link_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -14,17 +15,17 @@
         <meta name="author" content="">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-        
-        
+
+
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        
+
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        
+
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        
+
         <!--DtataTables-->
         <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" type="text/css" />
         <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
@@ -32,15 +33,15 @@
         <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.4.2/js/dataTables.buttons.min.js"></script>
         <script src="https://cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.js"></script>
         <link href="//cdn.datatables.net/responsive/2.1.1/css/dataTables.responsive.css"/>
-        
+
         <!--Font Awesome-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-        
-        
+
+
   </head>
 
   <body>
-  
+
     <header>
         <nav class="navbar navbar-default navbar-static-top">
           <div class="container">
@@ -62,9 +63,9 @@
               <ul class="nav navbar-nav navbar-right">
                 <li>
                   <%= link_to new_game_path do %>
-                  
+
                     <span class="glyphicon glyphicon-plus"></span>
-                  
+
                   <% end %>
                   </li>
                 <li class="dropdown">
@@ -85,7 +86,7 @@
         </nav>
     </header>
 
-    
+
     <%= yield %>
   </body>
 </html>
