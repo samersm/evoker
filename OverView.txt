@@ -1,4 +1,4 @@
-OverView File 
+OverView File
 ** This is the main text file considering it as a planning board for the project
 
 
@@ -8,7 +8,8 @@ Aristocrat - Assassin's Creed Unity
 * The main idea of the project is to view wallpapers from links
 
 Current Step
-* Add Single View Page Design
+* Add Create Page Design
+* Add iFrame Javascript
 
 Next Step
 =>
@@ -26,6 +27,8 @@ Targets & Missions
 ..
 Pages and Layout
 * Improve the main view page design V1.
+* Improve the single view page design V1.
+* Add a dark-theme color (midnight-blue)
 * Add Tags to the pages
 * Make a contact form
 * Make a comments system
@@ -39,7 +42,7 @@ Pages and Layout
 
 Backend Reqiurements
 * The App should have three type if users (Admin, Supervisors, Nurmal User)
-* The admin and supervisors users only ones who have the ability to add wallpapers 
+* The admin and supervisors users only ones who have the ability to add wallpapers
 * The App should contain rating system for every wallpaper
 * The app should have comment system for every wallpaper
 * The admin should have the ability to create users
@@ -70,13 +73,3 @@ $ rails c
 Ctrl-D    //To exit
 
 $ rails g scaffold <PageName>
-
-$ git log
-Q   //To quit
-
-// You can navigate and open any file while you're in the project dir
-// For Example
-$ c9 ../../code/playground.html 
-
-// To duplicate a single line in c9 editor
-Shift + CMD + D
