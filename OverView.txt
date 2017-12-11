@@ -9,7 +9,6 @@ Aristocrat - Assassin's Creed Unity
 
 Current Step
 * Add Create Page Design
-* Add iFrame Javascript
 
 Next Step
 =>
@@ -20,6 +19,7 @@ Next Step
 ForWard Step
 => =>
     * Add Comments Design to the singleviewpage
+    * Merge the prototype design into the app
 <= <=
 
 
@@ -29,6 +29,7 @@ Pages and Layout
 * Improve the main view page design V1.
 * Improve the single view page design V1.
 * Add a dark-theme color (midnight-blue)
+* Update iFrame javascript Technique
 * Add Tags to the pages
 * Make a contact form
 * Make a comments system
