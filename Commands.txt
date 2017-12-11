@@ -13,9 +13,12 @@ $ rails g controller playgrounds mainviewdesign -s
 $ rails g controller playgrounds singleviewdesign -s
 Commit..
 
-$
+$ rails g scaffold Game title:string link:string description:text
 Commit..
 
-
-Suggestion:
-$ rails g scaffold Game title:string link:string description:text
+// devise gem installation
+$ rails generate devise:install
+$ rails g devise:views
+$ rails g devise User   //For model generate
+$ rails db:migrate
+Commit..

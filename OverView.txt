@@ -20,6 +20,7 @@ ForWard Step
 => =>
     * Add Comments Design to the singleviewpage
     * Merge the prototype design into the app
+    * Add Admin Page controll with Devise
 <= <=
 
 
