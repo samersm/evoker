@@ -2,13 +2,14 @@ OverView File
 ** This is the main text file considering it as a planning board for the project
 
 
-Aristocrat - Assassin's Creed Unity
-* Rails Starter App with using of Gems and JQuery JavaScript
-* This project is all about wallpapers community
-* The main idea of the project is to view wallpapers from links
+Evoker - Playstation All Stars
+* This project is focusing mainly on JS & Rails
+* The main idea of the project is to get a huge collection of io games in one place
+* The benefit of creating this project is to learn how use javascript in ruby on rails
+
 
 Current Step
-* Add Create Page Design
+* Add Admin Page control with Devise
 
 Next Step
 =>
@@ -20,7 +21,6 @@ ForWard Step
 => =>
     * Add Comments Design to the singleviewpage
     * Merge the prototype design into the app
-    * Add Admin Page controll with Devise
 <= <=
 
 
@@ -41,6 +41,7 @@ Pages and Layout
 * Make a Profile view styles
 * Add (AD space) styles to the pages
 * Add multi-language to the website
+* Rebuild JS iFrame Codes
 
 Backend Reqiurements
 * The App should have three type if users (Admin, Supervisors, Nurmal User)

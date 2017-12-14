@@ -11,22 +11,30 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :title %>
-    <%= form.text_field :title, id: :game_title %>
-  </div>
+<div class="container">
+  <div class="row">
+    <div class="shadow">
+      <div class="well">
+          <div class="form-group field">
+            <%= form.label :title, "Game Name" %>
+            <%= form.text_field :title, id: :game_title, class: 'form-control', placeholder: "Agario" %>
+          </div>
 
-  <div class="field">
-    <%= form.label :link %>
-    <%= form.text_field :link, id: :game_link %>
-  </div>
+          <div class="form-group field">
+            <%= form.label :link, "Game URL" %>
+            <%= form.text_field :link, id: :game_link, class: 'form-control', placeholder: "http://agar.io/" %>
+          </div>
 
-  <div class="field">
-    <%= form.label :description %>
-    <%= form.text_area :description, id: :game_description %>
-  </div>
+          <div class="form-group field">
+            <%= form.label :description %>
+            <%= form.text_area :description, id: :game_description, class: 'form-control' %>
+          </div>
 
-  <div class="actions">
-    <%= form.submit %>
+          <div class="actions text-center">
+            <%= form.submit "Add Game", class: 'btn btn-primary' %>
+          </div>
+      </div>
+    </div>
   </div>
+</div>
 <% end %>
