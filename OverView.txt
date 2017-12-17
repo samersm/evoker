@@ -29,6 +29,7 @@ Targets & Missions
 Pages and Layout
 * Improve the main view page design V1.
 * Improve the single view page design V1.
+* Improve the create page design V1.
 * Add a dark-theme color (midnight-blue)
 * Update iFrame javascript Technique
 * Add Tags to the pages
