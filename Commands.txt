@@ -22,3 +22,7 @@ $ rails g devise:views
 $ rails g devise User   //For model generate
 $ rails db:migrate
 Commit..
+
+$ rails generate devise ADMIN
+$ rails generate devise:views admins
+Commit..

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :admins
   devise_for :users
   get 'prototypes/playground'
 
@@ -10,5 +11,13 @@ Rails.application.routes.draw do
 
   resources :games
   root to: "games#index"
+
+  devise_scope :admin do
+    get 'admin', to: 'devise/sessions#new'
+  end
+
+  as :user do
+    get 'login', to: 'devise/sessions#new'
+  end
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
