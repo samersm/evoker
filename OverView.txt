@@ -9,7 +9,11 @@ Evoker - Playstation All Stars
 
 
 Current Step
-* Add Admin Page control with Devise
+* Apply Main View to the index
+* install factory_girl gem
+* install paperclip gem
+* Fix rails black hover issue
+
 
 Next Step
 =>
@@ -19,6 +23,7 @@ Next Step
 
 ForWard Step
 => =>
+    * Add Admin Page control with Devise
     * Add Comments Design to the singleviewpage
     * Merge the prototype design into the app
 <= <=

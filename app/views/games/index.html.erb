@@ -1,24 +1,100 @@
 <p id="notice"><%= notice %></p>
 
-<div class="container center">
-  <br>
-  <div class="jumbotron">
-  <h1>Games</h1>
-    <br>
-    <%= link_to 'New Game', new_game_path, class: 'btn btn-success' %>
-    
-    <%= link_to new_game_path do %>
-      <button type="button" class="btn btn-success" aria-label="Left Align">
-        <span class="fa fa-plus fa-lg" aria-hidden="true"></span>
-      </button>
-    <% end %>
+<!-- Main Design -->
 
-      <a class="btn btn-danger" href="#">
-      <i class="glyphicon glyphicon-align-left"></i> Delete</a>
-    <%= button_tag type: 'submit', class: "button my-button", id: "register-button" do %>
-        <i class="fa fa-lock" aria-hidden="true"></i>
-    <% end %>
-  </div>
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">IO Games
+                    <small>A Collection of The Best io games</small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <div class="shadow ">
+                    <div class="well white">
+                        <a href="#">
+                            <img class="img-responsive" src="http://is2.mzstatic.com/image/thumb/Purple18/v4/60/f3/b5/60f3b5ca-7e1a-6231-f9e6-6dc5e1fdb880/source/520x293bb.jpg" width="700px" height="400px" alt="">
+                        </a>
+                        <h3>
+                            <a href="#">Game Name</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        <hr>
+
+        <!-- Pagination -->
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <ul class="pagination">
+                    <li>
+                        <a href="#">&laquo;</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                    <li>
+                        <a href="#">5</a>
+                    </li>
+                    <li>
+                        <a href="#">&raquo;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.row -->
+<!-- End Main Design -->
+
+
+<table hidden>
+<thead>
+  <tr>
+    <th>Title</th>
+    <th>Link</th>
+    <th>Description</th>
+    <th colspan="3"></th>
+  </tr>
+</thead>
+
+<tbody>
+  <% @games.each do |game| %>
+    <tr>
+      <td><%= game.title %></td>
+      <td><%= game.link %></td>
+      <td><%= game.description %></td>
+      <td><%= link_to 'Show', game %></td>
+      <td><%= link_to 'Edit', edit_game_path(game) %></td>
+      <td><%= link_to 'Destroy', game, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+</tbody>
+</table>
+
+<br>
+
+<!-- Old Testing Contents -->
+
+<div class="container center">
     <br></br><br></br>
     <%= link_to prototypes_maindesign_path do %>
       <button type="button" class="btn btn-default">
@@ -39,29 +115,4 @@
     <% end %>
 </div>
 
-
-<table hidden>
-<thead>
-  <tr>
-    <th>Title</th>
-    <th>Link</th>
-    <th>Description</th>
-    <th colspan="3"></th>
-  </tr>
-</thead>
- 
-<tbody>
-  <% @games.each do |game| %>
-    <tr>
-      <td><%= game.title %></td>
-      <td><%= game.link %></td>
-      <td><%= game.description %></td>
-      <td><%= link_to 'Show', game %></td>
-      <td><%= link_to 'Edit', edit_game_path(game) %></td>
-      <td><%= link_to 'Destroy', game, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-    </tr>
-  <% end %>
-</tbody>
-</table>
-
-<br>
+<!-- End of Old Testing Contents -->
