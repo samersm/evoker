@@ -42,6 +42,11 @@ gem 'devise', '~> 4.3'
 # for forms layout
 gem 'simple_form', '~> 3.5'
 
+# Use Twitter Bootsrap library for front-end UI and layout
+gem 'bootstrap-sass', '3.3.7'
+# Jquery
+gem 'jquery-rails'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
