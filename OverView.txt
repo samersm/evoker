@@ -9,16 +9,16 @@ Evoker - Playstation All Stars
 
 
 Current Step
-* Apply Main View to the index
-* install factory_girl gem
 * install paperclip gem
-* Fix rails black hover issue
+* install factory_girl gem
+* Apply Main View to the index
 
 
 Next Step
 =>
     * Start Working With User Auth in Devise gem (The user should only have the ability to favorite and comment for now)
     * The guest have the ability to like or dislike
+    * Install recommendable gem
 <=
 
 ForWard Step
