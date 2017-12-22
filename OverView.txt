@@ -9,10 +9,7 @@ Evoker - Playstation All Stars
 
 
 Current Step
-* install paperclip gem
 * install factory_girl gem
-* Apply Main View to the index
-
 
 Next Step
 =>
@@ -26,6 +23,7 @@ ForWard Step
     * Add Admin Page control with Devise
     * Add Comments Design to the singleviewpage
     * Merge the prototype design into the app
+    * Add Category model and controller
 <= <=
 
 

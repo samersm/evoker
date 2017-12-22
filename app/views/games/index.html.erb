@@ -17,19 +17,22 @@
 
         <!-- Projects Row -->
         <div class="row">
+            <% @games.each do |game| %>
             <div class="col-md-4 portfolio-item">
                 <div class="shadow ">
                     <div class="well white">
-                        <a href="#">
-                            <img class="img-responsive" src="http://is2.mzstatic.com/image/thumb/Purple18/v4/60/f3/b5/60f3b5ca-7e1a-6231-f9e6-6dc5e1fdb880/source/520x293bb.jpg" width="700px" height="400px" alt="">
-                        </a>
-                        <h3>
-                            <a href="#">Game Name</a>
+                      <a href="/games/ <%= game.id %>">
+                        <%= image_tag game.thumbnail.url, class: 'img-responsive', width: "700px", height: "400px" %>
+                      </a>
+                        <!-- <a href="#"><img class="img-responsive" src="http://is2.mzstatic.com/image/thumb/Purple18/v4/60/f3/b5/60f3b5ca-7e1a-6231-f9e6-6dc5e1fdb880/source/520x293bb.jpg" width="700px" height="400px" alt=""></a> -->
+                        <h3 class="text-center">
+                            <%= link_to game do %> <%= game.title %> <% end %>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+
                     </div>
                 </div>
             </div>
+            <% end %>
         </div>
         <!-- /.row -->
         <hr>
