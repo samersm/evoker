@@ -26,3 +26,8 @@ Commit..
 $ rails generate devise ADMIN
 $ rails generate devise:views admins
 Commit..
+
+$ rails generate simple_form:install
+$ rails generate paperclip game thumbnail
+$ rails db:migrate
+Commit..

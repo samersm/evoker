@@ -30,6 +30,10 @@
             <%= form.text_area :description, id: :game_description, class: 'form-control' %>
           </div>
 
+          <div class="form-group field">
+            <%= form.file_field :thumbnail, class: 'form-control' %>
+          </div>
+
           <div class="actions text-center">
             <%= form.submit "Add Game", class: 'btn btn-primary' %>
           </div>
