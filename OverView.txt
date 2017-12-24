@@ -9,21 +9,22 @@ Evoker - Playstation All Stars
 
 
 Current Step
-* install factory_girl gem
+* Install recommendable gem   // For Like/Dislike
+* Install acts-as-taggable-on gem   // For Tags
+* The guest have the ability to like or dislike
 
 Next Step
 =>
     * Start Working With User Auth in Devise gem (The user should only have the ability to favorite and comment for now)
-    * The guest have the ability to like or dislike
-    * Install recommendable gem
+    * Fix Rails and JavaScript Turbolinks issue
+    * install factory_girl gem
+    * Add Category model and controller
 <=
 
 ForWard Step
 => =>
     * Add Admin Page control with Devise
     * Add Comments Design to the singleviewpage
-    * Merge the prototype design into the app
-    * Add Category model and controller
 <= <=
 
 
@@ -80,3 +81,5 @@ $ rails c
 Ctrl-D    //To exit
 
 $ rails g scaffold <PageName>
+
+Shift + Cmd + .   //Rails Brackets
