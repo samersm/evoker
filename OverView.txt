@@ -11,7 +11,6 @@ Evoker - Playstation All Stars
 Current Step
 * Install recommendable gem   // For Like/Dislike
 * Install acts-as-taggable-on gem   // For Tags
-* The guest have the ability to like or dislike
 
 Next Step
 =>
@@ -49,6 +48,7 @@ Pages and Layout
 * Rebuild JS iFrame Codes
 
 Backend Reqiurements
+* The guest have the ability to like or dislike
 * The App should have three type if users (Admin, Supervisors, Nurmal User)
 * The admin and supervisors users only ones who have the ability to add wallpapers
 * The App should contain rating system for every wallpaper
