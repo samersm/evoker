@@ -31,3 +31,7 @@ $ rails generate simple_form:install
 $ rails generate paperclip game thumbnail
 $ rails db:migrate
 Commit..
+
+$ rails g sidekiq:worker Hard
+$ redis-server
+Commit..

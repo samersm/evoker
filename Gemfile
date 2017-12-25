@@ -42,6 +42,9 @@ gem 'paperclip', '~> 5.1'
 # for forms layout
 gem 'simple_form', '~> 3.5'
 
+# sidekiq for boosting and analyzing
+gem 'sidekiq'
+
 # Use Twitter Bootsrap library for front-end UI and layout
 gem 'bootstrap-sass', '3.3.7'
 # Jquery
