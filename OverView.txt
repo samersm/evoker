@@ -10,6 +10,7 @@ Evoker - Playstation All Stars
 
 Current Step
 * Install recommendable gem   // For Like/Dislike
+* Install like_dislike and acts_as_votable gem   // Only if <recommendable gem> is not working
 * Install acts-as-taggable-on gem   // For Tags
 
 Next Step
