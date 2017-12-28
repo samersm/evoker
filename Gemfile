@@ -44,6 +44,10 @@ gem 'simple_form', '~> 3.5'
 
 # sidekiq for boosting and analyzing
 gem 'sidekiq'
+# Votable Items gem
+gem 'acts_as_votable', '~> 0.11.1'
+# like/dislike gem
+gem 'like_dislike'
 
 # Use Twitter Bootsrap library for front-end UI and layout
 gem 'bootstrap-sass', '3.3.7'

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  # mount LikeDislike::Engine, at: '/'
   devise_for :admins
   devise_for :users
   get 'prototypes/playground'
