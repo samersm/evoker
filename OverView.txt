@@ -25,6 +25,7 @@ ForWard Step
 => =>
     * Add Admin Page control with Devise
     * Add Comments Design to the singleviewpage
+    * install CanCanCan gem for user permissions (Based on devise gem)
 <= <=
 
 
